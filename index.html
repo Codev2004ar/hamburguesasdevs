@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/hamburguesa-dev-1.svg">
+  <link rel="apple-touch-icon" href="assets/hamburguesa-dev-1.svg">
+  <title>Hamburguesas Dev</title>
+</head>
+<body>
+  <div class="hero-image"></div>
+  <header class="header sticky-top">
+    <div class="header-container">
+      <a href=""><img src="assets/hamburguesa-dev-1.svg" alt="home"></a>
+        <nav class="menu">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#">Menu</a>
+          <a href="index.html#">Temario</a>
+          <a href="index.html#">Blog</a>
+        </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1 id="home">Hamburguesas Dev</h1>
+    <article>
+      <h2>Secciones</h2>
+        <section class="section-1">
+          <h3>Formulario</h3>
+          <form>
+            <label>
+              <input type="email" name="correo" placeholder="Escribe tu correo" required>
+            </label>
+            <label>
+              <input type="password" name="contraseña" placeholder="Escribe tu contraseña" required>
+            </label>
+            <input type="submit">
+          </form>
+        </section>
+        <section class="section-2">
+          <h3>Input checkbox</h3>
+          <form>
+            <label>
+              <input type="checkbox" name="intereses" value="videojuegos" checked>Videjuegos
+            </label>
+            <label>
+              <input type="checkbox" name="intereses" value="deporte">Deporte
+            </label>
+            <label>
+              <input type="checkbox" name="intereses" value="anime">Anime
+            </label>
+            <label>
+              <input type="checkbox" name="intereses" value="comida">Comida
+            </label>
+            <input type="submit">
+            <input type="reset">
+          </form>
+        </section>
+        <section class="section-3">
+          <h3>Input radio</h3>
+          <form >
+            <p>Elige tu lenguaje de progrmación favorito</p>
+            <input type="radio" name="lenguaje" id="radio-js" value="js" checked>
+            <label for="radio-js">JavaScript</label>
+            <input type="radio" name="lenguaje" id="radio-py" value="py">
+            <label for="radio-py">Python</label>
+            <input type="radio" name="lenguaje" id="radio-php" value="php">
+            <label for="radio-php">PHP</label>
+            <input type="submit">
+          </form>
+        </section>
+        <section class="section-4">
+          <h3>Input select y términos</h3>
+          <p>Elige tu idioma</p>
+          <form>
+            <select name="idiomas" required>
+              <option value="" selected>Elige una opción</option>
+              <option value="es">Español</option>
+              <option value="en">Inglés</option>
+              <option value="jp">Japonés</option>
+              <option value="pt">Portugués</option>
+            </select>
+            <br><br>
+            <label>
+              <input type="checkbox" name="terminos" required>¿Aceptas los términos y usos de condición de la web?
+            </label>
+            <input type="submit">
+            <input type="reset">
+          </form>
+        </section>
+    </article>
+    <article>
+      <h2>Lista ordenada y desordenada</h2>
+        <section>
+          <h3>Lista ordenada</h3>
+            <ol class="list-1">
+              <li>Pan</li>
+              <li>Salsa</li>
+              <li>Carne</li>
+              <li>Lechuga</li>
+              <li>Tomate</li>
+              <li>Cebolla</li>
+            </ol>
+        </section>
+          <section>
+            <h3>lista desordenada</h3>
+              <ul class="list-2">
+                <li>Pan</li>
+                <li>Salsa</li>
+                <li>Carne</li>
+                <li>Lechuga</li>
+                <li>Tomate</li>
+                <li>Cebolla</li>
+              </ul>
+          </section>
+    </article>
+    <section class="cards">
+      <div class="card-1">
+        <img src="assets/hamburguesa-2.jpg" alt="Hamburguesa">
+        <h4>Hamburguesa</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus, saepe minima eveniet temporibus ea animi incidunt distinctio, fuga quaerat reprehenderit, adipisci praesentium tenetur atque voluptatum excepturi natus eligendi. Doloremque?
+        </p>
+      </div>
+      <div class="card-2">
+        <img src="assets/Hamburguesas-americanas-1.jpg" alt="Hamburguesa">
+        <h4>Hamburguesa</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus, saepe minima eveniet temporibus ea animi incidunt distinctio, fuga quaerat reprehenderit, adipisci praesentium tenetur atque voluptatum excepturi natus eligendi. Doloremque?
+        </p>
+      </div>
+      <div class="card-3">
+        <img src="assets/index-02.jpg" alt="Hamburguesa">
+        <h4>Hamburguesa</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus, saepe minima eveniet temporibus ea animi incidunt distinctio, fuga quaerat reprehenderit, adipisci praesentium tenetur atque voluptatum excepturi natus eligendi. Doloremque?
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>Tabla</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Comida Rápida</th>
+          </tr>
+          <tr>
+            <th>Nombre</th>
+            <th>Comida</th>
+            <th>País</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>McDonalds</td>
+            <td rowspan="3">Hamburguesa</td>
+            <td rowspan="2">Estados Unidos</td>
+          </tr>
+          <tr>
+            <td>Burger king</td>
+          </tr>
+          <tr>
+            <td>Mostaza</td>
+            <td>Argentina</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="3">Servicios al cliente 24/7</th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section>
+      <h2>McDonalds, Burger King & Mostaza</h2>
+      <ul class="list-web">
+        <img src="assets/arcos_dorados_McDonald_paz_politica_geopolitica.jpg" alt="McDonalds">
+        <br>
+        <a href="https://www.mcdonalds.com.ar/" target="_blank">McDonalds</a>
+        <br>
+        <img src="assets/Burger_King_logo_(1999).svg.png" alt="Burger King">
+        <br>
+        <a href="https://www.burgerking.com.ar/" target="_blank">Burger King</a>
+        <br>
+        <img src="assets/descarga.png" alt="Mostaza">
+        <br>
+        <a href="https://www.mostazaweb.com.ar/" target="_blank">Mostaza</a>
+      </ul>
+      <br>
+      <details>
+        <summary><b>Leer más</b></summary>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae facere rem laborum in, nisi magni quidem omnis at sit sint, asperiores, harum aperiam. Mollitia qui fugit ratione fugiat eveniet sit?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quam porro amet ut recusandae iste facilis, omnis, esse, excepturi nemo quae consequuntur optio impedit suscipit dolore et. Qui, ipsum vel.
+        </p>
+      </details>
+    </section>
+  </div>
+  <footer class="footer-style">Copyright reserved 2024</footer>
+  <script src="script/script.js"></script>
+</body>
+</html>

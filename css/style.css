@@ -1,0 +1,119 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url(../assets/hamburguesa-3.jpg);
+}
+
+.hero-image {
+  background-image: url(../assets/hamburguesa-2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #87ceeb;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+
+.header-container img {
+  width: 100px;
+  height: 80px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+
+.menu a[href] {
+  text-decoration: none;
+  color: #87ceeb;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.menu a:hover {
+  color: #ee82ee;
+  font-size: 2rem;
+}
+
+.container {
+  /* border: thick solid black; */
+  background-color: #fff;
+  width: 950px;
+  height: 4000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #87ceeb;
+}
+
+.list-1 li {
+  list-style-type: none;
+  background-color: #87ceeb;
+}
+
+.list-2 li {
+  list-style-type: none;
+  background-color: #87ceeb;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cards > * {
+  border: medium solid #000;
+  width: 400px;
+  height: 400px;
+  margin: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.cards img {
+  background-color: #faede7;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.list-web a[href] {
+  text-decoration: none;
+}
+
+.list-web img {
+  width: auto;
+  height: 400px;
+}
+
+.footer-style{
+  background-color: #fff;
+  border: thin solid #808080;
+  padding-top: 2rem;
+  text-align: center;
+}
